@@ -3,41 +3,50 @@ import TextEffect from "./TextEffect";
 
 const Header = () => {
   return (
-    <header
+    <div
       aria-label="Site Header"
-      className=" bg-custom-dark shadow-sm ease-in "
+      className=" bg-custom-dark fixed w-full  shadow-custom-white ease-in  drop-shadow-xl border"
     >
-      <div className="mx-auto  max-w-screen-xl p-4">
-        <div className="flex items-center justify-between gap-4 lg:gap-10">
+      <div className="  p-4 px-16 ">
+        <div className="flex items-center  gap-4 lg:gap-10 ">
           <div className="flex lg:w-0 lg:flex-1">
             <a
               href="#"
-              className=" text-custom-white text-3xl drop-shadow-[2px_2px_0px_#7843E8] "
+              className="ease-in duration-75 delay-75 text-custom-white text-3xl drop-shadow-[2px_2px_0px_#7843E8] hover:drop-shadow-[2px_2px_0px_#7843E8] hover:scale-x-125"
             >
               <TextEffect text="cydex" />
             </a>
           </div>
 
-          <nav
+          <div
             aria-label="Site Nav"
-            className="hidden gap-20 text-custom-white text-2xl md:flex"
+            className="hidden gap-20 text-custom-white text-2xl  md:flex "
           >
-            <a className=" " href="">
+            <a
+              className="ease-in duration-75 delay-75 hover:drop-shadow-[2px_2px_0px_#7843E8] hover:scale-x-125"
+              href=""
+            >
               HOME
             </a>
-            <a className=" " href="">
+            <a
+              className="ease-in duration-75 delay-75 hover:drop-shadow-[2px_2px_0px_#7843E8] hover:scale-x-125"
+              href=""
+            >
               GALLERY
             </a>
-            <a className="" href="">
+            <a
+              className="ease-in duration-75 delay-75 hover:drop-shadow-[2px_2px_0px_#7843E8] hover:scale-x-125"
+              href=""
+            >
               DISCORD
             </a>
-          </nav>
+          </div>
 
           <div className="hidden flex-1 items-center justify-end gap-4 sm:flex">
             <div class="hidden rounded-3xl px-16 py-3 ease-in duration-75 delay-75 bg-custom-white shadow-[4px_4px_0px_#7843E8] items-center justify-end hover:bg-custom-purple hover:shadow-[4px_4px_0px_#ffffff] hover:scale-110 sm:flex">
               <a
                 href="/"
-                className="text-2xl font-medium text-custom-dark relative inline-block"
+                className="text-2xl font-medium text-custom-dark drop-shadow-[1px_1px_0px_#7843E8] relative inline-block "
               >
                 BUY NFT
               </a>
@@ -69,7 +78,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

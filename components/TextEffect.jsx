@@ -31,7 +31,7 @@ const TextEffect = (props) => {
   }, []);
 
   return (
-    <h1 className=" text-3xl font-medium text-custom-white relative inline-block">
+    <h1 className=" text-4xl font-medium text-custom-white relative inline-block ">
       <span
         id="before-te1"
         className="absolute top-0 left-0.5 w-full h-full bg-transparent"
