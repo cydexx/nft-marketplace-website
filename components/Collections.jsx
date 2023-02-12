@@ -5,7 +5,7 @@ const Collections = () => {
   return (
     <div className="w-full h-screen bg-custom-purple">
       <div className="px-16 flex py-10">
-        <div className="flex w-1/2 rounded-3xl mx-4 pb-[6px] hover:bg-custom-gray duration-150 animate-bounce ">
+        <div className="flex w-1/2 rounded-3xl mx-4 pb-[6px] duration-150 hover:outline hover:outline-custom-white hover:scale-105">
           <div className=" border-[3px] bg-custom-dark rounded-3xl px-16 py-3 ease-in duration-75 delay-75 shadow-[6px_6px_0px_#FFF253] items-center  hover:bg-custom-yellow hover:shadow-[4px_4px_0px_#ffffff] hover:scale-110">
             <Image src={nft} alt="Hero" width={1000} height={1000} relative />
           </div>
@@ -21,11 +21,11 @@ const Collections = () => {
           </div>
         </div>
 
-        <div className="flex w-1/2">
-          <div className="  border-[3px] bg-custom-dark rounded-3xl px-16 py-3 ease-in duration-75 delay-75 shadow-[6px_6px_0px_#FFF253] items-center  hover:bg-custom-yellow hover:shadow-[4px_4px_0px_#ffffff] hover:scale-110">
-            <Image src={nft} alt="Hero" width={500} height={700} relative />
+        <div className="flex w-1/2 rounded-3xl mx-4 pb-[6px] duration-150 hover:outline hover:outline-custom-white hover:scale-105">
+          <div className=" border-[3px] bg-custom-dark rounded-3xl px-16 py-3 ease-in duration-75 delay-75 shadow-[6px_6px_0px_#FFF253] items-center  hover:bg-custom-yellow hover:shadow-[4px_4px_0px_#ffffff] hover:scale-110">
+            <Image src={nft} alt="Hero" width={1000} height={1000} relative />
           </div>
-          <div className="">
+          <div className="pl-5">
             <h1 className="pt-10 text-white text-9xl">WEDGE</h1>
             <h2 className=" text-white text-4xl">CCO</h2>
             <p className="py-4 text-white text-2xl">
