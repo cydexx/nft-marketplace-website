@@ -31,7 +31,7 @@ const TextEffect = (props) => {
   }, []);
 
   return (
-    <h1 className=" text-4xl font-medium text-custom-white relative inline-block ">
+    <h1 className=" text-4xl font-medium text-custom-white relative inline-block hover:animate-pulse   ">
       <span
         id="before-te1"
         className="absolute top-0 left-0.5 w-full h-full bg-transparent"
@@ -43,7 +43,7 @@ const TextEffect = (props) => {
       >
         {props.text}
       </span>
-      {/* glitch::before */}
+
       {props.text}
       <span
         id="after-te1"
@@ -56,7 +56,6 @@ const TextEffect = (props) => {
       >
         {props.text}
       </span>
-      {/* glitch::after */}
     </h1>
   );
 };

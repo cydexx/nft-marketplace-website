@@ -29,3 +29,14 @@ a {
   color: inherit;
   text-decoration: none;
 }
+@keyframes slider-text {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.slider-text {
+  animation: slider-text 10s linear infinite;
+}

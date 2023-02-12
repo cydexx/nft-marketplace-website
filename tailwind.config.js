@@ -21,6 +21,15 @@ module.exports = {
       fontFamily: {
         bebas: ["Bebas Neue", ...defaultTheme.fontFamily.sans],
       },
+      keyframes: {
+        slide: {
+          "0%": { transform: "translate(0, 0)" },
+          "100%": { transform: "translate(-100%, 0)" },
+        },
+      },
+      animation: {
+        slide: "slide 120s linear infinite",
+      },
     },
   },
   plugins: [],
