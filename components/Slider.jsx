@@ -1,14 +1,13 @@
 import React from "react";
 
-const CollectionText = () => {
-  return (
-    <h1 className="text-custom-white text-5xl whitespace-nowrap">
-      New Collection
-    </h1>
-  );
-};
-
-const Slider = () => {
+const Slider = (props) => {
+  const CollectionText = () => {
+    return (
+      <h1 className="text-custom-white text-5xl whitespace-nowrap">
+        {props.text}
+      </h1>
+    );
+  };
   return (
     <div className=" w-full bg-black border py-3 select-none">
       <div className=" flex gap-10 animate-slide ">

@@ -4,6 +4,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Collections from "@/components/Collections";
 import Slider from "@/components/Slider";
+import Auction from "@/components/Auction";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Collections />
+      <Auction />
+      <Footer />
     </div>
   );
 }

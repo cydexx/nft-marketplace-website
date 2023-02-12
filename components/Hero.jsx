@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <Slider />
+      <Slider text="New Collection" />
     </div>
   );
 };
