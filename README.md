@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## NFT MARKETPLACE APP DESIGN
+
+You can see project from [Here](https://cydex-nft-marketplace.netlify.app/).
+
+This is a NFT Marketplace website project. Using [Next.js](https://nextjs.org/) and [Tailwind](https://tailwindcss.com/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
