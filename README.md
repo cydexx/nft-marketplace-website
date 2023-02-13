@@ -1,9 +1,9 @@
-![Imgur Image](https://imgur.com/a/HUC6mdr.jpg)
+
 
 ## NFT MARKETPLACE APP DESIGN
 
-You can see project from [Here](https://cydex-nft-marketplace.netlify.app/).
-
+### You can see project from [Here](https://cydex-nft-marketplace.netlify.app/).
+![mockup](./assets/mockap.png)
 ## Used techs and sytems
 
 - [Next.js 13](https://github.com/vercel/next.js/)
