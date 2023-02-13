@@ -6,9 +6,9 @@ You can see project from [Here](https://cydex-nft-marketplace.netlify.app/).
 
 - [Next.js 13](https://github.com/vercel/next.js/)
 - [React 18](https://github.com/facebook/react)
+- [Prettier](https://github.com/prettier/prettier) — code formatting
+- [Tailwind](https://tailwindcss.com/)- alternate css
 - Absolute Import and Path Alias
-- [Prettier](https://github.com/prettier/prettier) — Kodu belli bir kurala göre formatlamak için
-- [Tailwind](https://tailwindcss.com/)
 
 ## Project Run
 
@@ -33,3 +33,7 @@ npm run dev
 #or
 yarn dev
 ```
+
+### 4. See the result:
+
+- [localhost:3000](http://localhost:3000/)
