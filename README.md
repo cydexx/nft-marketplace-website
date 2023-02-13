@@ -1,5 +1,4 @@
-![mockup](https://imgur.com/a/HUC6mdr)
-
+<img src="https://imgur.com/a/HUC6mdr"/>
 ## NFT MARKETPLACE APP DESIGN
 
 You can see project from [Here](https://cydex-nft-marketplace.netlify.app/).
