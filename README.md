@@ -6,9 +6,9 @@ You can see project from [Here](https://cydex-nft-marketplace.netlify.app/).
 
 - [Next.js 13](https://github.com/vercel/next.js/)
 - [React 18](https://github.com/facebook/react)
-- [Prettier](https://github.com/prettier/prettier) — code formatting
-- [Tailwind](https://tailwindcss.com/)- alternate css
-- Absolute Import and Path Alias
+- [Prettier](https://github.com/prettier/prettier) — To format the code according to specific guidelines
+- [Tailwind](https://tailwindcss.com/)- To alternate css tags to classNames
+- Absolute Import and Path Alias - Components to import with @/ prefix
 
 ## Project Run
 
