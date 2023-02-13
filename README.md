@@ -37,5 +37,6 @@ yarn dev
 ```
 
 ### 4. See the result:
-
+```
 - [localhost:3000](http://localhost:3000/)
+```
