@@ -1,16 +1,16 @@
-![Imgur Image](https://imgur.com/a/HUC6mdr.jpg)
 
-## NFT MARKETPLACE APP DESIGN
 
-You can see project from [Here](https://cydex-nft-marketplace.netlify.app/).
+# NFT MARKETPLACE APP DESIGN
 
+### You can see project from [Here](https://nft-marketplace-website-two.vercel.app/)
+![mockup](./assets/mockap.png)
 ## Used techs and sytems
 
 - [Next.js 13](https://github.com/vercel/next.js/)
 - [React 18](https://github.com/facebook/react)
 - [Prettier](https://github.com/prettier/prettier) — To format the code according to specific guidelines
-- [Tailwind](https://tailwindcss.com/)- To alternate css tags to classNames
-- Absolute Import and Path Alias - Components to import with @/ prefix
+- [Tailwind](https://tailwindcss.com/) — To alternate css tags to classNames
+- Absolute Import and Path Alias — Components to import with @/ prefix
 
 ## Project Run
 
@@ -39,3 +39,4 @@ yarn dev
 ### 4. See the result:
 
 - [localhost:3000](http://localhost:3000/)
+
