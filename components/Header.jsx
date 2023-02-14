@@ -1,15 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import TextEffect from "./TextEffect";
 
 const Header = () => {
+  const [scroll, setScroll] = useState(false);
+  const [color, setColor] = useState(null);
+  const changeColor = () => {
+    if (window.scrollY >= 400) {
+      setScroll(true);
+    } else setScroll(false);
+  };
+  useEffect(() => {
+    if (window.scrollY >= 400) {
+      setScroll(true);
+    } else setScroll(false);
+    return () => {
+      setScroll;
+    };
+  }, []);
+  // window.addEventListener("scroll", setScroll);
+
   return (
     <>
       <div
         aria-label="Site Header"
-        className=" px-16  bg-custom-dark fixed z-50 w-screen  shadow-custom-white ease-in  drop-shadow-xl border "
+        className={`px-16  bg-custom-dark fixed z-50 w-screen  shadow-custom-white ease-in  drop-shadow-xl border `}
       >
-        <div className="  p-4">
+        <navbar className="  p-4">
           <div className="flex items-center  gap-4 lg:gap-10 ">
             <div className="flex lg:w-0 lg:flex-1">
               <a
@@ -79,7 +96,7 @@ const Header = () => {
               </button>
             </div>
           </div>
-        </div>
+        </navbar>
       </div>
     </>
   );

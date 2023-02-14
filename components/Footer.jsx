@@ -27,7 +27,8 @@ const Footer = () => {
         </div>
         <div className="justify-center items-center text-center pt-20">
           <p className="text-custom-white text-2xl">
-            created by <span className="animate-pulse ">cydex</span>
+            created by{" "}
+            <span className="animate-pulse text-custom-purple">cydex</span>
           </p>
           <p className="text-custom-white text-md">© all rights reserved.</p>
         </div>
