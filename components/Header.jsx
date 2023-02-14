@@ -3,22 +3,22 @@ import React, { useEffect, useState } from "react";
 import TextEffect from "./TextEffect";
 
 const Header = () => {
-  const [scroll, setScroll] = useState(false);
-  const [color, setColor] = useState(null);
-  const changeColor = () => {
-    if (window.scrollY >= 400) {
-      setScroll(true);
-    } else setScroll(false);
-  };
-  useEffect(() => {
-    if (window.scrollY >= 400) {
-      setScroll(true);
-    } else setScroll(false);
-    return () => {
-      setScroll;
-    };
-  }, []);
-  // window.addEventListener("scroll", setScroll);
+  // const [scroll, setScroll] = useState(false);
+  // const [color, setColor] = useState(null);
+  // const changeColor = () => {
+  //   if (window.scrollY >= 400) {
+  //     setScroll(true);
+  //   } else setScroll(false);
+  // };
+  // useEffect(() => {
+  //   if (window.scrollY >= 400) {
+  //     setScroll(true);
+  //   } else setScroll(false);
+  //   return () => {
+  //     setScroll;
+  //   };
+  // }, []);
+  //  window.addEventListener("scroll", setScroll);
 
   return (
     <>

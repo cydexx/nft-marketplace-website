@@ -1,4 +1,5 @@
 import React from "react";
+
 const Button = (props) => {
   return (
     <div class="group rounded-3xl px-16 py-3  bg-custom-dark border border-custom-white items-center justify-end hover:bg-custom-purple hover:shadow-[4px_4px_0px_#ffffff] hover:animate-pulse ease-in duration-75 ">
@@ -11,6 +12,7 @@ const Button = (props) => {
     </div>
   );
 };
+
 const Footer = () => {
   return (
     <div className="justify-between bg-custom-dark z-40 h-full w-full">
