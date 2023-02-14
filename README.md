@@ -2,7 +2,7 @@
 
 # NFT MARKETPLACE APP DESIGN
 
-### You can see project from [Here](https://cydex-nft-marketplace.netlify.app/)
+### You can see project from [Here](https://nft-marketplace-website-two.vercel.app/)
 ![mockup](./assets/mockap.png)
 ## Used techs and sytems
 
