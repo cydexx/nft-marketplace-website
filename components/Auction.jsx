@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+
 import nft from "../assets/nft.png";
 import people from "../assets/people.png";
 import Slider from "./Slider";
