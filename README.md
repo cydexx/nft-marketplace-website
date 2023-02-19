@@ -3,7 +3,8 @@
 # NFT MARKETPLACE APP DESIGN
 
 ### You can see project from [Here](https://nft-marketplace-website-two.vercel.app/)
-![mockup](./assets/mockap.png)
+![image](https://user-images.githubusercontent.com/45735208/219928505-d98d1558-e6ae-4e96-b71b-ceb6d968bb5a.png)
+
 ## Used techs and sytems
 
 - [Next.js 13](https://github.com/vercel/next.js/)
